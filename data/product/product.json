@@ -1,0 +1,23 @@
+{
+    "arrayOfProducts": [
+      {
+        "id": 1,
+        "thumbImg": "assets/images/product-thumbnail.jpg",
+        "title": "1+ Mit Huhn 800g",
+        "detail": "Wir von Whiskas® verstehen was Ihre Katze von Natur aus braucht und liebt. Deshalb ist Whiskas® 1+ zu 100% komplett und ausgewogen, mit einem optimalen Verhältnis an Vitaminen und Mineralien, damit Sie Ihrer Katze die bestmögliche Fürsorge zukommen lassen können. Unsere Mahlzeiten bieten alles, was Ihre Katze für ein langes und glückliches Leben benötigt.",
+        "price": 198.99,
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "thumbImg": "assets/images/product-thumbnail.jpg",
+        "title": "1+ Mit Rind 800g",
+        "detail": "Wir von Whiskas® verstehen was Ihre Katze von Natur aus braucht und liebt. Deshalb ist Whiskas® 1+ zu 100% komplett und ausgewogen, mit einem optimalen Verhältnis an Vitaminen und Mineralien, damit Sie Ihrer Katze die bestmögliche Fürsorge zukommen lassen können. Unsere Mahlzeiten bieten alles, was Ihre Katze",
+        "price": 198.99,
+        "quantity": 1
+      }
+    ],
+    "currencyCode": "$",
+    "applicableVAT": 20,
+    "copyright": "Copyright @Test LTD Registered in Blah Blah"
+  }

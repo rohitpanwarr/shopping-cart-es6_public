@@ -1,0 +1,9 @@
+header {
+    margin-top: calculateRem(50px);
+    margin-bottom: calculateRem(20px);
+    .brand-logo {
+        img {
+            width: 100px;
+        }
+    }
+}

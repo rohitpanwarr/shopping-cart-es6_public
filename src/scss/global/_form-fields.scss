@@ -1,0 +1,7 @@
+.buy-button {
+    background: $red;
+    border: none;
+    padding: calculateRem(10px);
+    color: $white;
+    cursor: pointer;
+}

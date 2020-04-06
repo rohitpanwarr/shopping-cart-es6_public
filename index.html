@@ -1,0 +1,51 @@
+<html lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>
+        Simple Shopping Cart App.
+    </title>
+<body>
+    <div class="container">
+        <header>
+            <div class="brand-logo">
+                Shopping Cart
+            </div>
+        </header>
+        <h1 class="emtry-cart d-none"></h1>
+        <div class="cart-wrapper d-none">
+            <div class="cart-wrapper__title font-weight-bold"></div>
+            <form role="form" action="/buy" method="POST" name="cartForm" id="cartForm" novalidate="novalidate">
+                <div class="cart-wrapper__list">
+                    <div class="cart-header row font-weight-bold" role="rowgroup">
+                        <div class="cart-header__products col-xl-8 col-lg-8 col-md-8 col-sm-12">Products</div>
+                        <div class="cart-header__total-cost col-xl-4 col-lg-4 col-md-4 col-sm-12">Total Cost</div>
+                    </div>
+                    <!-- Product list -->
+                    <ul class="product-list" role="rowgroup"></ul>
+                    <div class="subtotal row" role="rowgroup">
+                        <div class="subtotal__label text-right d-flex flex-column justify-content-center col-xl-8 col-lg-8 col-md-8 col-sm-10">
+                            <span>Subtotal</span>
+                            <span></span>
+                        </div>
+                        <div class="subtotal__value d-flex flex-column justify-content-center col-xl-4 col-lg-4 col-md-4 col-sm-2">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="total-cost row font-weight-bold" role="rowgroup">
+                        <div class="total-cost__label text-right col-xl-8 col-lg-8 col-md-8 col-sm-10">Total Cost</div>
+                        <div class="total-cost__value col-xl-4 col-lg-4 col-md-4 col-sm-2"></div>
+                    </div>
+                </div>
+                <div class="buy-now text-right">
+                    <input type="submit" name="buy-button" class="buy-button font-weight-bold" value="Buy Now >>"/>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class="copyright text-right"></div>
+        </footer>
+    </div>
+</body>
+</html>

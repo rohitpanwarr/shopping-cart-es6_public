@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@import '~normalize.css';
+@import 'bootstrap-4-grid';
+@import 'variables';
+@import 'global/mixins';
+@import 'global/form-fields';
+@import 'components/header';
+@import 'components/cart';
+@import 'components/footer';
